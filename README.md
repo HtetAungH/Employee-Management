@@ -1,32 +1,20 @@
-Employee Management System
-
+# Employee Management System
 The Employee Management System is a Java Spring Boot application that provides basic CRUD (Create, Read, Update, Delete) operations for managing employee records. It uses PostgreSQL as the database and MyBatis for data persistence.
 
-Features
-Create, retrieve, update, and delete employee records.
-Search employees by name or ID.
-RESTful API endpoints for integration.
+## Features
+- Create, retrieve, update, and delete employee records.
+- Search employees by name or ID.
+- RESTful API endpoints for integration.
 
-Technology Stack
-Spring Boot: Main framework for application development.
-Spring Data JDBC: Simplifies JDBC-based data access.
-MyBatis: Object Relational Mapping (ORM) framework for SQL interactions.
-PostgreSQL: Database for storing employee data.
-Swagger: API documentation tool for easy endpoint testing and reference.
+## Technologies Stack
+- **Spring Boot** - Main framework for application development.
+- **Spring Data JDBC** - Simplifies JDBC-based data access.
+- **MyBatis** - Object Relational Mapping (ORM) framework for SQL interactions.
+- **PostgreSQL** - Database for storing employee data.
+- **Swagger** - API documentation tool for easy endpoint testing and reference.
 
-Setup Instructions
-Prerequisites
-Java Development Kit (JDK) version 8 or higher installed.
-Maven build tool.
-PostgreSQL database installed and running.
+### Setting Up PostgreSQL
 
-Steps
-Clone the repository:
-bash
-git clone https://github.com/your/repository.git
-cd employee-management-system
-
-Database Configuraton:
 Create a PostgreSQL database named employee_management.
 
 Update application.properties with your database username and password:
