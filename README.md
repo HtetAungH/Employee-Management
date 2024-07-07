@@ -15,16 +15,45 @@ The Employee Management System is a Java Spring Boot application that provides b
 
 ### Setting Up PostgreSQL
 
-Create a PostgreSQL database named employee_management.
+1. **Install PostgreSQL:**
+   Follow the instructions on the [official PostgreSQL website](https://www.postgresql.org/download/) to install PostgreSQL on your system.
 
-Update application.properties with your database username and password:
-properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/employee_management
+2. **Create a Database:**
+   ```CREATE DATABASE employee_management_system```
+
+## Running Guide
+
+# Database Configuration
+ ```spring.datasource.url=jdbc:postgresql://localhost:5432/employee_db
 spring.datasource.username=your_username
 spring.datasource.password=your_password
-spring.datasource.driver-class-name=org.postgresql.Driver
-Build and Run:
+ ```
 
-bash
-mvn clean install
-java -jar target/employee-management-system-1.0.0.jar
+# MyBatis Configuration
+``mybatis.configuration.map-underscore-to-camel-case=true
+mybatis.configuration.use-generated-keys=true
+mybatis.mapper-locations=classpath:mappers/*.xml
+``
+
+**Backend Setup**
+``git clone https://github.com/YeZaw2003NeoPhenon/emp_ms_react_project.git
+cd emp_ms_react_project/backend``
+
+``./mvnw spring-boot:run``
+
+**Frontend Setup**
+
+``cd ../frontend``
+
+``npm install``
+
+``npm start``
+
+## Contributing
+
+**Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.**
+`` Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request ``
