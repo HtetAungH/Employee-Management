@@ -1,0 +1,7 @@
+2024-06-04_21:25:29.606 - Starting EmployeeManagementApplication using Java 1.8.0_202 on LAPTOP-11S43L9H with PID 12060 (E:\00_Pandora_Business\00_HeinKoKo\03_Event_Bootcamp_Training_Podcasting\30_(Training) PJDC - Batch 1\PJDC_workspace\javaEE_workspace\employee_management\target\classes started by HEIN KO KO in E:\00_Pandora_Business\00_HeinKoKo\03_Event_Bootcamp_Training_Podcasting\30_(Training) PJDC - Batch 1\PJDC_workspace\javaEE_workspace\employee_management)
+2024-06-04_21:25:29.609 - Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-06-04_21:25:29.610 - No active profile set, falling back to 1 default profile: "default"
+2024-06-04_21:25:30.826 - Tomcat initialized with port(s): 8080 (http)
+2024-06-04_21:25:30.828 - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+2024-06-04_21:25:30.829 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-06-04_21:25:30.829 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]

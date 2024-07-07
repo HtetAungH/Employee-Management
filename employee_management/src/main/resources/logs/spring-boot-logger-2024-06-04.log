@@ -1,0 +1,4 @@
+2024-06-04_21:26:17.800 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-04_21:26:18.573 - Destroying ProtocolHandler ["http-nio-8080"]
+2024-06-04_21:26:18.575 - HikariPool-1 - Shutdown initiated...
+2024-06-04_21:26:18.583 - HikariPool-1 - Shutdown completed.

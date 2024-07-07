@@ -1,0 +1,13 @@
+2024-06-04_21:25:31.806 - Adding welcome page template: index
+2024-06-04_21:25:32.067 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-04_21:25:32.091 - Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-04_21:25:32.109 - Started EmployeeManagementApplication in 3.025 seconds (JVM running for 4.015)
+2024-06-04_21:25:53.135 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-04_21:25:53.136 - Initializing Servlet 'dispatcherServlet'
+2024-06-04_21:25:53.141 - Completed initialization in 5 ms
+2024-06-04_21:25:53.253 - HikariPool-1 - Starting...
+2024-06-04_21:25:53.590 - HikariPool-1 - Start completed.
+2024-06-04_21:25:53.608 - ==>  Preparing: SELECT users.username, password, enabled, authority FROM users, authorities WHERE users.username = authorities.username AND users.username = ?;
+2024-06-04_21:25:53.626 - ==> Parameters: HeinKoKo(String)
+2024-06-04_21:25:53.685 - <==    Columns: username, password, enabled, authority
+2024-06-04_21:25:53.685 - <==        Row: HeinKoKo, $2a$12$T3KWRE2u8EBpd8PUk8QykebJHWikV3d61RlpSUssH/NqygRXD5jC., t, ADMIN

@@ -1,0 +1,16 @@
+2024-06-04_21:25:53.688 - <==      Total: 1
+2024-06-04_21:25:53.764 - ==>  Preparing: SELECT empId, empName, empAge, empGender FROM employee_table;
+2024-06-04_21:25:53.764 - ==> Parameters: 
+2024-06-04_21:25:53.772 - <==    Columns: empid, empname, empage, empgender
+2024-06-04_21:25:53.773 - <==        Row: 2, Nay Min, 19, male
+2024-06-04_21:25:53.773 - <==        Row: 5, Thurein, 7, male
+2024-06-04_21:25:53.774 - <==        Row: 6, U Mya, 29, male
+2024-06-04_21:25:53.774 - <==        Row: 8, Ye Zaw Win, 21, male
+2024-06-04_21:25:53.774 - <==        Row: 9, Htet Aung Hlaing, 32, male
+2024-06-04_21:25:53.774 - <==        Row: 10, Paing Paing, 12, male
+2024-06-04_21:25:53.774 - <==        Row: 1, Maung Kaung Naing, 31, male
+2024-06-04_21:25:53.775 - <==        Row: 12, Pyay Phyo, 19, male
+2024-06-04_21:25:53.776 - <==      Total: 8
+2024-06-04_21:25:54.947 - ==>  Preparing: SELECT users.username, password, enabled, authority FROM users, authorities WHERE users.username = authorities.username AND users.username = ?;
+2024-06-04_21:25:54.948 - ==> Parameters: HeinKoKo(String)
+2024-06-04_21:25:54.949 - <==    Columns: username, password, enabled, authority
