@@ -1,4 +1,5 @@
 Employee Management System
+
 The Employee Management System is a Java Spring Boot application that provides basic CRUD (Create, Read, Update, Delete) operations for managing employee records. It uses PostgreSQL as the database and MyBatis for data persistence.
 
 Features
